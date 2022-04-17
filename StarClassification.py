@@ -72,6 +72,8 @@ data["Star color"] = data["Star color"].map(star_color_dict)
 data["Spectral Class"] = data["Spectral Class"].map(spectral_class_dict)
 
 
+
+
 # With LabelEncoder library
 le = LabelEncoder()
 columnsToEncode = list(data.select_dtypes(include=["object"]))
